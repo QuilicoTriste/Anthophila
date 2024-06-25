@@ -1,0 +1,24 @@
+    1  cd OneDrive/Escritorio/Anthophila/data/
+    2  ls
+    3  cd alineamiento.fasta 
+    4  ls alineamiento.fasta 
+    5  ls
+    6  cd ..
+    7  cd ../..
+    8  ls
+    9  cd Escritorio/
+   10  ls
+   11  cd iqtree-2.2.0-Windows/
+   12  ls
+   13  cd bin/
+   14  ls
+   15  pwd
+   16  export PROJ_DIR=/c/Users/achop/OneDrive/Escritorio/iqtree-2.2.0-Windows/bin/iqtree2.exe 
+   17  cd ../..
+   18  cd Anthophila/data/
+   19  ls
+   20  $PROJ_DIR -s 'muscle abeja.aln-fasta' -B 1000
+   21  cd ..
+   22  ls
+   23  cd scripts/
+   24  history > script_abejita.txt

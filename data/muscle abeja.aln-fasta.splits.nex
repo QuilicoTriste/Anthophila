@@ -1,0 +1,79 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=9;
+TAXLABELS
+[1] 'Apis_mellifera'
+[2] 'Osmia_lignaria'
+[3] 'Habropoda_laboriosa'
+[4] 'Bombus_bifarius'
+[5] 'Bombus_vancouverensis'
+[6] 'Bombus_impatiens'
+[7] 'Bombus_pyrosoma'
+[8] 'Bombus_affinis'
+[9] 'Bombus_terrestris'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=9 nsplits=55;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	87	 2 3,
+	100	 9,
+	1	 2 3 9,
+	100	 4,
+	100	 5,
+	47	 4 5,
+	100	 6,
+	94	 4 5 6,
+	100	 7,
+	100	 8,
+	42	 7 8,
+	52	 1 2 3 9,
+	100	 1,
+	32	 4 5 6 7,
+	10	 8 9,
+	95	 1 2 3,
+	10	 1 3,
+	10	 4 5 6 9,
+	25	 4 6,
+	0	 4 5 7,
+	3	 1 2,
+	28	 5 6,
+	13	 4 5 6 8,
+	8	 7 9,
+	21	 7 8 9,
+	1	 1 2 3 6,
+	1	 1 7 8 9,
+	0	 4 7 8 9,
+	3	 1 2 3 7,
+	1	 2 3 7,
+	1	 2 3 7 8,
+	2	 1 9,
+	0	 1 8 9,
+	0	 6 9,
+	0	 5 9,
+	1	 5 7 8 9,
+	0	 2 3 7 9,
+	1	 1 2 3 4,
+	8	 1 2 3 8,
+	1	 6 7,
+	0	 5 7,
+	1	 5 6 7,
+	1	 1 7 8,
+	1	 6 7 8 9,
+	0	 1 8,
+	1	 1 4 5 6,
+	0	 1 7,
+	0	 4 7,
+	0	 4 6 7,
+	0	 4 5 9,
+	0	 1 7 9,
+	0	 2 3 8 9,
+	0	 2 3 4 5,
+;
+END; [Splits]
+
