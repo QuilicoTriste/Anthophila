@@ -1,0 +1,32 @@
+---
+title: "README_abeja"
+output:
+  html_document: default
+  pdf_document: default
+date: "2024-06-19"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#**Filogenia de las abejas Anthophila**
+```
+
+Mi proyecto trata sobre elaborar una filogenia del clado Anthophila, dentro de la clase hymenoptera, que contiene a todas las abejas. La taxonomia de las abejas es complicada, a tal punto que en algunos generos como Megachile no tenemos certeza de las relaciones entre distintas especies o si los subgeneros utilizados son grupos naturales. Solo tenemos los genomas de unas pocas abejas pero esto nos sirve como un punto de partida.
+
+```{r}
+##**Fotos**
+```
+
+![Riqueza de abejitas](https://i0.wp.com/blog.publish.csiro.au/wp-content/uploads/2019/05/James-Dorey-gradient-bees-large-crop-for-blog.jpg?fit=954%2C636&ssl=1)
+![Abejitas cortadoras de hojas Megachile](https://binary.pensoft.net/fig/479666/big/file.jpg)
+
+```{r}
+##**Video abejitas**
+```
+
+<iframe src="https://www.youtube.com/embed?v=eDxZojp9yNg" data-external="1">
+
+</iframe>
